@@ -32,6 +32,7 @@
     "record:fx-replay": "node scripts/record-fx-acp-replay-fixture.ts",
     "record:kiro-replay": "node scripts/record-kiro-acp-replay-fixture.ts",
     "record:muse-replay": "node scripts/record-muse-msp-replay-fixture.ts",
+    "record:frontal-replay": "node --experimental-strip-types scripts/record-frontal-replay-fixture.ts",
     "generate": "graphqlgen",
     "generate:expo-schema": "node scripts/fetch-expo-schema.ts"
   },
@@ -48,6 +49,7 @@
     "@t3tools/provider-acp-registry": "workspace:*",
     "@t3tools/provider-core": "workspace:*",
     "@t3tools/provider-cursor": "workspace:*",
+    "@t3tools/provider-frontal": "workspace:*",
     "@t3tools/provider-fx": "workspace:*",
     "@t3tools/provider-grok": "workspace:*",
     "@t3tools/provider-kiro": "workspace:*",

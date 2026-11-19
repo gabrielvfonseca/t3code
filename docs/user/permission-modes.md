@@ -57,4 +57,8 @@ approvals for actions that support them.
 Kiro offers only **Supervised** and **Full access**. In **Supervised** Kiro also asks you to
 review a turn's file changes. See [Kiro permissions](./providers-kiro.md#permission-modes).
 
+Frontal Code maps the modes to its native sandbox flags, but its current one-shot JSON interface
+cannot return live permission prompts to T3. A turn that needs an interactive prompt may fail
+instead of opening an approval card; see [Frontal Code](./providers-frontal.md#permission-modes).
+
 See the [provider guides](./install.md#providers) for setup and provider-specific limits.
